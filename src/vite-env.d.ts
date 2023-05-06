@@ -1,2 +1,2 @@
 /// <reference types="vite/client" />
-base = "/converters/";
+base="/converters/";
