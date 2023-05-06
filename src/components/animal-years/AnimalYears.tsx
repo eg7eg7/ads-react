@@ -11,7 +11,6 @@ function AnimalYears() {
   const [output, setOutput] = useState<number>(0);
 
   useEffect(() => {
-    console.log(fromValue, fromUnit, toUnit);
     const result = convertAnimalAge(
       {
         age: fromValue,

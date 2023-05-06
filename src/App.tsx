@@ -4,6 +4,7 @@ import { ICalculatorSettings } from "./types/index";
 import CalculatorFrame from "./components/calculator-frame/CalculatorFrame";
 import Temperature from "./components/temperature.tsx/Temperature";
 import AnimalYears from "./components/animal-years/AnimalYears";
+import BMI from "./components/bmi/BMI";
 
 const calculators: ICalculatorSettings[] = [
   {
@@ -22,14 +23,14 @@ const calculators: ICalculatorSettings[] = [
       link: "",
     },
   },
-  // {
-  //   name: "example3",
-  //   tags: [],
-  //   component: undefined,
-  //   details: {
-  //     link: "",
-  //   },
-  // },
+  {
+    name: "BMI Calculator",
+    tags: [],
+    component: BMI,
+    details: {
+      link: "",
+    },
+  },
   // {
   //   name: "example4",
   //   tags: [],
